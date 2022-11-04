@@ -1,2 +1,2 @@
 # BitWise
-BitWise Course Project - Digital Twin Implementation
+BitWise University Course Project - Digital Twin Implementation
