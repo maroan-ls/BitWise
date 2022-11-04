@@ -1,0 +1,60 @@
+[
+  {
+    "@id": "dtmi:demo:Network;1",
+    "@type": "Interface",
+    "displayName": "Transport Network",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+      {
+          "@type": "Property",
+          "name": "name",
+          "schema": "string"
+        },
+      {
+        "@type": "Relationship",
+        "name": "contains",
+        "displayName": "contains",
+        "target": "dtmi:demo:Station;1"
+      }
+    ]
+  },
+  {
+    "@id": "dtmi:demo:Station;1",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "displayName": "Station",
+    "contents": [
+        {
+          "@type": "Property",
+          "name": "name",
+          "schema": "string"
+        },
+        {
+          "@type": "Property",
+          "name": "direction",
+          "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "lineaname",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "deptimePlanned",
+            "schema": "dateTime"
+        },
+        {
+            "@type": "Property",
+            "name": "deptimeReal",
+            "schema": "dateTime"
+        },
+        {
+          "@type": "Telemetry",
+          "name": "countdowntime",
+          "schema": "integer"
+        }
+
+    ]
+}
+]
