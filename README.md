@@ -4,7 +4,13 @@ BitWise University Course Project - Digital Twin Implementation
 
 Here is the Twin Graph Prototye Implementation:
 
+
+<img src="AzureDTExplorer with Real Time Data 2.png" width="600" />
+
 <img src="AzureDTExplorer with Real Time Data.png" width="600" />
+
+
+
 
 
 The Metadata File concerns the Vienna Transportation Dataset API. 
